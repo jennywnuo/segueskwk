@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KWK_MiniProject1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="htg-yc-uBa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="JENNY NUO" id="9w9-4b-sNq"/>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jennynuologo" translatesAutoresizingMaskIntoConstraints="NO" id="Kcg-yu-J5y">
+                                <rect key="frame" x="60" y="96" width="255" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="136" id="0oV-tn-0QX"/>
+                                    <constraint firstAttribute="height" constant="136" id="S4m-qV-0BF"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJR-Lr-EPk">
+                                <rect key="frame" x="51" y="223" width="273" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="zFC-ba-fX2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="FUN FACTS">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="revealButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iws-cz-a2A"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I like to sing and write songs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UkT-Bh-c93">
+                                <rect key="frame" x="51" y="288" width="273" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I can speak five languages" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31a-Kq-CxO">
+                                <rect key="frame" x="51" y="330.5" width="273" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have a younger sister" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HC-js-BBQ">
+                                <rect key="frame" x="51" y="373" width="273" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ukue" translatesAutoresizingMaskIntoConstraints="NO" id="zEh-lD-Zv4">
+                                <rect key="frame" x="112" y="548" width="151" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="71B-cO-w8Z"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43940183573719788" green="0.60361744392011307" blue="0.64378238341968919" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="htg-yc-uBa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="17f-Kl-vg6"/>
+                            <constraint firstItem="zEh-lD-Zv4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="1Wd-tR-d0f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uJR-Lr-EPk" secondAttribute="trailing" constant="51" id="1qz-Ac-HoE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="htg-yc-uBa" secondAttribute="trailing" id="3ks-QL-tvr"/>
+                            <constraint firstItem="UkT-Bh-c93" firstAttribute="top" secondItem="Kcg-yu-J5y" secondAttribute="bottom" constant="56" id="BS5-dC-9EP"/>
+                            <constraint firstItem="UkT-Bh-c93" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="HVg-aj-cSr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zEh-lD-Zv4" secondAttribute="trailing" constant="112" id="Kjl-pM-cFF"/>
+                            <constraint firstItem="31a-Kq-CxO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="KxF-Qa-PFg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kcg-yu-J5y" secondAttribute="trailing" constant="60" id="Lo2-yy-2vF"/>
+                            <constraint firstItem="1HC-js-BBQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="Qz9-ja-fJ4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zEh-lD-Zv4" secondAttribute="bottom" constant="43" id="S7b-P1-IeD"/>
+                            <constraint firstItem="htg-yc-uBa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ea6-0q-waO"/>
+                            <constraint firstItem="1HC-js-BBQ" firstAttribute="top" secondItem="31a-Kq-CxO" secondAttribute="bottom" constant="22" id="ebx-T4-Dk0"/>
+                            <constraint firstItem="UkT-Bh-c93" firstAttribute="top" secondItem="uJR-Lr-EPk" secondAttribute="bottom" constant="35" id="f0e-R2-aTj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="31a-Kq-CxO" secondAttribute="trailing" constant="51" id="gwA-fD-eVG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1HC-js-BBQ" secondAttribute="trailing" constant="51" id="hZX-tM-Ivg"/>
+                            <constraint firstItem="uJR-Lr-EPk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="l8F-C5-5kn"/>
+                            <constraint firstItem="uJR-Lr-EPk" firstAttribute="top" secondItem="htg-yc-uBa" secondAttribute="bottom" constant="179" id="p5E-Sd-ESD"/>
+                            <constraint firstItem="31a-Kq-CxO" firstAttribute="top" secondItem="UkT-Bh-c93" secondAttribute="bottom" constant="22" id="pVs-n9-reh"/>
+                            <constraint firstItem="1HC-js-BBQ" firstAttribute="top" secondItem="31a-Kq-CxO" secondAttribute="bottom" constant="22" id="u4Z-wo-aNa"/>
+                            <constraint firstItem="Kcg-yu-J5y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="xde-Gg-RRe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UkT-Bh-c93" secondAttribute="trailing" constant="51" id="yv8-cS-jHf"/>
+                            <constraint firstItem="Kcg-yu-J5y" firstAttribute="top" secondItem="htg-yc-uBa" secondAttribute="bottom" constant="52" id="zzl-uN-idY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="fact1" destination="UkT-Bh-c93" id="b9S-yo-NkW"/>
+                        <outlet property="fact2" destination="31a-Kq-CxO" id="Z5v-Ot-K6Y"/>
+                        <outlet property="fact3" destination="1HC-js-BBQ" id="fSK-hd-30T"/>
+                        <outlet property="image" destination="Kcg-yu-J5y" id="ueR-n9-mxU"/>
+                        <outlet property="navBar" destination="htg-yc-uBa" id="ZAO-16-OmW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jennynuologo" width="1112" height="834"/>
+        <image name="ukue" width="324" height="405"/>
+    </resources>
+</document>
