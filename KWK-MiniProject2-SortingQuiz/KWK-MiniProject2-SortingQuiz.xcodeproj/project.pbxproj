@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA80175824CA36CE0073C035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80175724CA36CE0073C035 /* AppDelegate.swift */; };
+		BA80175A24CA36CE0073C035 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80175924CA36CE0073C035 /* SceneDelegate.swift */; };
+		BA80175C24CA36CE0073C035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80175B24CA36CE0073C035 /* ViewController.swift */; };
+		BA80175F24CA36CE0073C035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA80175D24CA36CE0073C035 /* Main.storyboard */; };
+		BA80176124CA36D10073C035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA80176024CA36D10073C035 /* Assets.xcassets */; };
+		BA80176424CA36D10073C035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA80176224CA36D10073C035 /* LaunchScreen.storyboard */; };
+		BA80176F24CA36D20073C035 /* KWK_MiniProject2_SortingQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80176E24CA36D20073C035 /* KWK_MiniProject2_SortingQuizTests.swift */; };
+		BA80177A24CA36D20073C035 /* KWK_MiniProject2_SortingQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80177924CA36D20073C035 /* KWK_MiniProject2_SortingQuizUITests.swift */; };
+		BAE40D0224CA69AF0003BBA6 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE40D0024CA69AF0003BBA6 /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA80176B24CA36D20073C035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA80174C24CA36CE0073C035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA80175324CA36CE0073C035;
+			remoteInfo = "KWK-MiniProject2-SortingQuiz";
+		};
+		BA80177624CA36D20073C035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA80174C24CA36CE0073C035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA80175324CA36CE0073C035;
+			remoteInfo = "KWK-MiniProject2-SortingQuiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA80175424CA36CE0073C035 /* KWK-MiniProject2-SortingQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK-MiniProject2-SortingQuiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA80175724CA36CE0073C035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA80175924CA36CE0073C035 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA80175B24CA36CE0073C035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA80175E24CA36CE0073C035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA80176024CA36D10073C035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA80176324CA36D10073C035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA80176524CA36D10073C035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA80176A24CA36D20073C035 /* KWK-MiniProject2-SortingQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK-MiniProject2-SortingQuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA80176E24CA36D20073C035 /* KWK_MiniProject2_SortingQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_MiniProject2_SortingQuizTests.swift; sourceTree = "<group>"; };
+		BA80177024CA36D20073C035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA80177524CA36D20073C035 /* KWK-MiniProject2-SortingQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK-MiniProject2-SortingQuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA80177924CA36D20073C035 /* KWK_MiniProject2_SortingQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_MiniProject2_SortingQuizUITests.swift; sourceTree = "<group>"; };
+		BA80177B24CA36D20073C035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE40D0024CA69AF0003BBA6 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA80175124CA36CE0073C035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80176724CA36D20073C035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80177224CA36D20073C035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA80174B24CA36CE0073C035 = {
+			isa = PBXGroup;
+			children = (
+				BA80175624CA36CE0073C035 /* KWK-MiniProject2-SortingQuiz */,
+				BA80176D24CA36D20073C035 /* KWK-MiniProject2-SortingQuizTests */,
+				BA80177824CA36D20073C035 /* KWK-MiniProject2-SortingQuizUITests */,
+				BA80175524CA36CE0073C035 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA80175524CA36CE0073C035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA80175424CA36CE0073C035 /* KWK-MiniProject2-SortingQuiz.app */,
+				BA80176A24CA36D20073C035 /* KWK-MiniProject2-SortingQuizTests.xctest */,
+				BA80177524CA36D20073C035 /* KWK-MiniProject2-SortingQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA80175624CA36CE0073C035 /* KWK-MiniProject2-SortingQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				BA80175724CA36CE0073C035 /* AppDelegate.swift */,
+				BA80175924CA36CE0073C035 /* SceneDelegate.swift */,
+				BA80175B24CA36CE0073C035 /* ViewController.swift */,
+				BAE40D0024CA69AF0003BBA6 /* ViewController2.swift */,
+				BA80175D24CA36CE0073C035 /* Main.storyboard */,
+				BA80176024CA36D10073C035 /* Assets.xcassets */,
+				BA80176224CA36D10073C035 /* LaunchScreen.storyboard */,
+				BA80176524CA36D10073C035 /* Info.plist */,
+			);
+			path = "KWK-MiniProject2-SortingQuiz";
+			sourceTree = "<group>";
+		};
+		BA80176D24CA36D20073C035 /* KWK-MiniProject2-SortingQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA80176E24CA36D20073C035 /* KWK_MiniProject2_SortingQuizTests.swift */,
+				BA80177024CA36D20073C035 /* Info.plist */,
+			);
+			path = "KWK-MiniProject2-SortingQuizTests";
+			sourceTree = "<group>";
+		};
+		BA80177824CA36D20073C035 /* KWK-MiniProject2-SortingQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA80177924CA36D20073C035 /* KWK_MiniProject2_SortingQuizUITests.swift */,
+				BA80177B24CA36D20073C035 /* Info.plist */,
+			);
+			path = "KWK-MiniProject2-SortingQuizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA80175324CA36CE0073C035 /* KWK-MiniProject2-SortingQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA80177E24CA36D20073C035 /* Build configuration list for PBXNativeTarget "KWK-MiniProject2-SortingQuiz" */;
+			buildPhases = (
+				BA80175024CA36CE0073C035 /* Sources */,
+				BA80175124CA36CE0073C035 /* Frameworks */,
+				BA80175224CA36CE0073C035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KWK-MiniProject2-SortingQuiz";
+			productName = "KWK-MiniProject2-SortingQuiz";
+			productReference = BA80175424CA36CE0073C035 /* KWK-MiniProject2-SortingQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA80176924CA36D20073C035 /* KWK-MiniProject2-SortingQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA80178124CA36D20073C035 /* Build configuration list for PBXNativeTarget "KWK-MiniProject2-SortingQuizTests" */;
+			buildPhases = (
+				BA80176624CA36D20073C035 /* Sources */,
+				BA80176724CA36D20073C035 /* Frameworks */,
+				BA80176824CA36D20073C035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA80176C24CA36D20073C035 /* PBXTargetDependency */,
+			);
+			name = "KWK-MiniProject2-SortingQuizTests";
+			productName = "KWK-MiniProject2-SortingQuizTests";
+			productReference = BA80176A24CA36D20073C035 /* KWK-MiniProject2-SortingQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA80177424CA36D20073C035 /* KWK-MiniProject2-SortingQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA80178424CA36D20073C035 /* Build configuration list for PBXNativeTarget "KWK-MiniProject2-SortingQuizUITests" */;
+			buildPhases = (
+				BA80177124CA36D20073C035 /* Sources */,
+				BA80177224CA36D20073C035 /* Frameworks */,
+				BA80177324CA36D20073C035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA80177724CA36D20073C035 /* PBXTargetDependency */,
+			);
+			name = "KWK-MiniProject2-SortingQuizUITests";
+			productName = "KWK-MiniProject2-SortingQuizUITests";
+			productReference = BA80177524CA36D20073C035 /* KWK-MiniProject2-SortingQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA80174C24CA36CE0073C035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "jenny nuo";
+				TargetAttributes = {
+					BA80175324CA36CE0073C035 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BA80176924CA36D20073C035 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BA80175324CA36CE0073C035;
+					};
+					BA80177424CA36D20073C035 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BA80175324CA36CE0073C035;
+					};
+				};
+			};
+			buildConfigurationList = BA80174F24CA36CE0073C035 /* Build configuration list for PBXProject "KWK-MiniProject2-SortingQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA80174B24CA36CE0073C035;
+			productRefGroup = BA80175524CA36CE0073C035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA80175324CA36CE0073C035 /* KWK-MiniProject2-SortingQuiz */,
+				BA80176924CA36D20073C035 /* KWK-MiniProject2-SortingQuizTests */,
+				BA80177424CA36D20073C035 /* KWK-MiniProject2-SortingQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA80175224CA36CE0073C035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA80176424CA36D10073C035 /* LaunchScreen.storyboard in Resources */,
+				BA80176124CA36D10073C035 /* Assets.xcassets in Resources */,
+				BA80175F24CA36CE0073C035 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80176824CA36D20073C035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80177324CA36D20073C035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA80175024CA36CE0073C035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA80175C24CA36CE0073C035 /* ViewController.swift in Sources */,
+				BAE40D0224CA69AF0003BBA6 /* ViewController2.swift in Sources */,
+				BA80175824CA36CE0073C035 /* AppDelegate.swift in Sources */,
+				BA80175A24CA36CE0073C035 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80176624CA36D20073C035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA80176F24CA36D20073C035 /* KWK_MiniProject2_SortingQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80177124CA36D20073C035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA80177A24CA36D20073C035 /* KWK_MiniProject2_SortingQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA80176C24CA36D20073C035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA80175324CA36CE0073C035 /* KWK-MiniProject2-SortingQuiz */;
+			targetProxy = BA80176B24CA36D20073C035 /* PBXContainerItemProxy */;
+		};
+		BA80177724CA36D20073C035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA80175324CA36CE0073C035 /* KWK-MiniProject2-SortingQuiz */;
+			targetProxy = BA80177624CA36D20073C035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA80175D24CA36CE0073C035 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA80175E24CA36CE0073C035 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA80176224CA36D10073C035 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA80176324CA36D10073C035 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA80177C24CA36D20073C035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA80177D24CA36D20073C035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA80177F24CA36D20073C035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KWK-MiniProject2-SortingQuiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JENNYNUO.KWK-MiniProject2-SortingQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA80178024CA36D20073C035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KWK-MiniProject2-SortingQuiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JENNYNUO.KWK-MiniProject2-SortingQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA80178224CA36D20073C035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KWK-MiniProject2-SortingQuizTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JENNYNUO.KWK-MiniProject2-SortingQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWK-MiniProject2-SortingQuiz.app/KWK-MiniProject2-SortingQuiz";
+			};
+			name = Debug;
+		};
+		BA80178324CA36D20073C035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KWK-MiniProject2-SortingQuizTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JENNYNUO.KWK-MiniProject2-SortingQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWK-MiniProject2-SortingQuiz.app/KWK-MiniProject2-SortingQuiz";
+			};
+			name = Release;
+		};
+		BA80178524CA36D20073C035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KWK-MiniProject2-SortingQuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JENNYNUO.KWK-MiniProject2-SortingQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KWK-MiniProject2-SortingQuiz";
+			};
+			name = Debug;
+		};
+		BA80178624CA36D20073C035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KWK-MiniProject2-SortingQuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JENNYNUO.KWK-MiniProject2-SortingQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KWK-MiniProject2-SortingQuiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA80174F24CA36CE0073C035 /* Build configuration list for PBXProject "KWK-MiniProject2-SortingQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA80177C24CA36D20073C035 /* Debug */,
+				BA80177D24CA36D20073C035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA80177E24CA36D20073C035 /* Build configuration list for PBXNativeTarget "KWK-MiniProject2-SortingQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA80177F24CA36D20073C035 /* Debug */,
+				BA80178024CA36D20073C035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA80178124CA36D20073C035 /* Build configuration list for PBXNativeTarget "KWK-MiniProject2-SortingQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA80178224CA36D20073C035 /* Debug */,
+				BA80178324CA36D20073C035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA80178424CA36D20073C035 /* Build configuration list for PBXNativeTarget "KWK-MiniProject2-SortingQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA80178524CA36D20073C035 /* Debug */,
+				BA80178624CA36D20073C035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA80174C24CA36CE0073C035 /* Project object */;
+}
